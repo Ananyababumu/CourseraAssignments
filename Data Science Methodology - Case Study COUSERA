@@ -1,0 +1,67 @@
+Data Science Methodology - Case Study
+
+Which topic did you choose to apply the data science methodology to? (2 marks)
+
+I will choose email as my topic in this project.  The reason behind choosing this topic is classifying the emails 
+(by checking if it's important or not and also if it's spam or not etc.) will increase in identifying the email 
+and also increase in productivity.
+
+Next, you will play the role of the client and the data scientist. 
+
+Using the topic that you selected, complete the Business Understanding stage by coming up with a problem that you 
+would like to solve and phrasing it in the form of a question that you will use data to answer. (3 marks)
+
+You are required to:
+
+Describe the problem, related to the topic you selected.
+
+Phrase the problem as a question to be answered using data.
+
+For example, using the food recipes use case discussed in the labs, the question that we defined was, 
+"Can we automatically determine the cuisine of a given dish based on its ingredients?".
+
+​1. We received many emails everyday. It could be difficult to read through every email recieved. 
+Some email could be Important, some could be just an update, some could be a promotional email and some email could be spam. 
+Therefore by Classifying these email into various groups such as Important, Social, Promotion, Spam and Update could be helpful 
+and less time consuming. It could help us to avoid the spam emails and concentrate on the important emails.
+
+2. Question:  "Based on the Content and Subject of the email, Can we determine which type of email it is?"
+
+
+Briefly explain how you would complete each of the following stages for the problem that you described in the Business Understanding 
+stage, so that you are ultimately able to answer the question that you came up with. (5 marks):
+
+Analytic Approach
+
+Data Requirements
+
+Data Collection
+
+Data Understanding and Preparation
+
+Modeling and Evaluation
+
+You can always refer to the labs as a reference with describing how you would complete each stage for your problem.
+
+1. Analytic Approach: In this scenario, We can use classification model. As, We need to check if the email classifies to certain groups 
+or not (Important, Social, Promotion, Spam and Update).
+
+2. Data Requirements: In order to create a classification model in the scenario, we need information such as Senders email ID, subject of 
+the email, content or body of the email, and whether it contain an attachment or not.
+
+3. Data collection: For this scenario, We can collect all the data needed from the inbox of our email account. We can further collect and 
+merge the email from various other inbox to create a good database. Later, Descriptive statistics and visualisation can be applied to data 
+collected to check content quality and if we have the required data needed to answer the question asked.
+
+4. Data Understanding and Preparation: The dataset will be checked. If any data present in the dataset is redundant, It will be removed or 
+ignored. And also, since we are considering obtaining emails from various inboxes, there could be repetition of email. These will be considered
+as duplicate data in the dataset, which has to be removed.
+
+Since the data we are working with is email and they will be in text format, Text analysis will have to be performed on it. 
+We also need to make sure that emails have to grouped properly in order to classify them. Certain keywords can be also used, 
+which is present in the subject or the content of the email to group the email.
+
+5. Modelling and evaluation: Since we are classifying emails in this scenario, A classification model has to be prepared. 
+Many models will be developed and evaluated. We can check how accurately each model classifies. The model with more accuracy 
+will be selected and deployed. The feedback can be used to tweak the models and make necessary changes required to make sure 
+the Question asked originally is answerwed.
